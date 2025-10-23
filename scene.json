@@ -1,0 +1,60 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "video-streaming",
+    "description": "First scene with SDK7",
+    "navmapThumbnail": "assets/scene/screenshot_2024-09-13_at_51113 pm.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "",
+  "contact": {
+    "name": "SDK",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "78,-3",
+      "78,-2",
+      "79,-3",
+      "79,-2"
+    ],
+    "base": "78,-3"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": [
+          0,
+          3
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          0,
+          3
+        ]
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  },
+  "name": "video-streaming",
+  "source": {
+    "origin": "creator-hub",
+    "projectId": "d8181960-c55c-4d8e-a8e6-e9c6286d0f09"
+  }
+}
