@@ -15,29 +15,18 @@ It includes de Scene Admin Smart Item, which allows admin users in the scene to 
 - Banning players from the scene
 - Adding other users as admins
 
----
-
-## 📂 Deployment
-
-Once customized, you can:  
-1. Deploy the house to your **Decentraland World** or **Lands in Genesis City**.  
-2. Share it as an open house for visitors.  
-
----
-
-## 📝 License
-
-This template is intended for free use and adaptation within the Decentraland ecosystem.  
-Feel free to fork, remix, and personalize it for your gallery or project.
-# Setting up the Server for Streaming
-
-## Choosing a hosting option
-
-There are a number of options for streaming video.
+## Stream to your scene
 
 The simplest option is to use the Admin Tools smart item.  The admin panel includes a video player section where they can control anything related to videos. See [The documentation for more information](https://docs.decentraland.org/creator/editor/scene-admin/#video-playing) 
 
-As an alternative, you might want to manage the stream through a managed hosting provider like [Vimeo](https://vimeo.com/) or [Livepeer Studio](https://livepeer.studio/) where you pay a fee to the provider to manage all the streaming infrastructure. The other alternative is to set up your own server, using free software but paying for hosting on a platform like Digital Ocean. All these options have pros and cons for different scenarios. You should evaluate what's best for you taking into account your needs, technical skills and budget.
+Use free software like OBS or StreamYard to capture your microphone and camera or screen. Once you published your scene, in the Scene Admin UI you'll find the necessary information to configure your app and start streaming into your scene.
+
+
+## Choosing a hosting option
+
+Instead of streaming through Decentraland's free architecture, you may want to use an alternative.
+
+One option is to use a hosting provider like [Vimeo](https://vimeo.com/) or [Livepeer Studio](https://livepeer.studio/) where you pay a fee to the provider to manage all the streaming infrastructure. The other alternative is to set up your own server, using free software but paying for hosting on a platform like Digital Ocean. All these options have pros and cons for different scenarios. You should evaluate what's best for you taking into account your needs, technical skills and budget.
 
 ### Managed hosted
 
@@ -151,3 +140,20 @@ _Functionality to upload asset directly in Studio dashboard coming in Q3 2022_
 This is the cheapest option, but is significantly harder to set up than the others.
 
 See [ADVANCED-SETUP.md](https://github.com/decentraland/sdk7-goerli-plaza/blob/main/video-streaming/ADVANCED-SETUP.md) for detailed instructions for how to deploy a server, configure it, and install all the necessary command-line tools.
+
+
+---
+
+## 📂 Deployment
+
+Once customized, you can:  
+1. Deploy the house to your **Decentraland World** or **Lands in Genesis City**.  
+2. Share it as an open house for visitors.  
+
+---
+
+## 📝 License
+
+This template is intended for free use and adaptation within the Decentraland ecosystem.  
+Feel free to fork, remix, and personalize it for your gallery or project.
+# Setting up the Server for Streaming
