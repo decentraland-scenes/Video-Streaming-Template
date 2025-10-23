@@ -4,65 +4,40 @@ A scene with examples of some simple interactions. Perform the corresponding act
 
 ![](screenshot/screenshot.png)
 
-This scene shows you:
+This scene shows you how to stream video into a scene
 
-- How to stream video into a scene
-- How to reuse the same video texture in multiple screens
-- How to play/pause a video stream
+It includes de Scene Admin Smart Item, which allows admin users in the scene to perform a number of special tasks. These include:
 
-## Try it out
+- Playing videos from URLs
+- Streaming live
+- Sending UI announcements to all players in the scene
+- Activating any Smart Items in the scene
+- Banning players from the scene
+- Adding other users as admins
 
-**Previewing the scene**
+---
 
-1. Download this repository.
+## 📂 Deployment
 
-2. Open the command line in this scene root directory
+Once customized, you can:  
+1. Deploy the house to your **Decentraland World** or **Lands in Genesis City**.  
+2. Share it as an open house for visitors.  
 
-3. Run:
+---
 
-```
-npm install
-```
+## 📝 License
 
-3. Open a Visual Studio Code window on this scene's root folder. Not on the root folder of the whole repo, but instead on this sub-folder that belongs to the scene.
-
-4. Open the Decentraland Editor tab, and press **Run Scene**
-
-> Note: When running a preview of the scene inside Visual Studio Code, some video formats may not be supported. If your video doesn't play, try clicking the **Open in browser** button on top of the preview window.
-
-Alternatively, you can use the command line:
-
-1. Open a command line window in the scene root directory
-
-2. Run:
-
-```
-npm i
-```
-
-3. Then run:
-
-```
-npm run start
-```
-
-**Scene Usage**
-
-Click on the screen to pause/play it.
-
-Learn more about how to build your own scenes in our [documentation](https://docs.decentraland.org/) site.
-
-If something doesn’t work, please [file an issue](https://github.com/decentraland-scenes/Awesome-Repository/issues/new).
-
-## Copyright info
-
-This scene is protected with a standard Apache 2 licence. See the terms and conditions in the [LICENSE](/LICENSE) file.
-
+This template is intended for free use and adaptation within the Decentraland ecosystem.  
+Feel free to fork, remix, and personalize it for your gallery or project.
 # Setting up the Server for Streaming
 
 ## Choosing a hosting option
 
-There are a number of options for streaming video. The simplest option is to use a managed hosting provider like [Vimeo](https://vimeo.com/) or [Livepeer Studio](https://livepeer.studio/) where you pay a fee to the provider to manage all the streaming infrastructure. The other recommended alternative is to set up your own server, using free software but paying for hosting on a platform like Digital Ocean. All these options have pros and cons for different scenarios. You should evaluate what's best for you taking into account your needs, technical skills and budget.
+There are a number of options for streaming video.
+
+The simplest option is to use the Admin Tools smart item.  The admin panel includes a video player section where they can control anything related to videos. See [The documentation for more information](https://docs.decentraland.org/creator/editor/scene-admin/#video-playing) 
+
+As an alternative, you might want to manage the stream through a managed hosting provider like [Vimeo](https://vimeo.com/) or [Livepeer Studio](https://livepeer.studio/) where you pay a fee to the provider to manage all the streaming infrastructure. The other alternative is to set up your own server, using free software but paying for hosting on a platform like Digital Ocean. All these options have pros and cons for different scenarios. You should evaluate what's best for you taking into account your needs, technical skills and budget.
 
 ### Managed hosted
 
